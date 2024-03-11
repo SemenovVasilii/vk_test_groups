@@ -1,0 +1,32 @@
+.groupelement {
+    padding: 40px;
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    &__name {
+        margin-bottom: 5px;
+    }
+
+    &__private {
+        margin-bottom: 5px;
+    }
+
+    &__members {
+        margin-bottom: 5px;
+    }
+
+    &__friend {
+        margin-bottom: 5px;
+    }
+}

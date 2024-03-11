@@ -1,0 +1,10 @@
+.friend {
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+
+    &__firstname {
+        margin-right: 5px;
+    }
+}
